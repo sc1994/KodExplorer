@@ -9,7 +9,7 @@
 # pull
 docker pull daocloud.io/sc1994/kod
 # run 
-docker run KodExplorerApp -p 9999:80
+docker run KodExplorer -p 9999:80
 ```
 ---
 ### 或者自己构建
