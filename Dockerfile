@@ -14,5 +14,4 @@ WORKDIR /usr/local/bin
 RUN  ./docker-php-ext-install gd
 
 COPY . /var/www/html/
-RUN sudo -c 'setenforce 0'
 RUN sudo chmod -R 777 /var/www/html/
