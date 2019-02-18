@@ -14,4 +14,4 @@ WORKDIR /usr/local/bin
 RUN  ./docker-php-ext-install gd
 
 COPY . /var/www/html/
-RUN sudo chmod -R 777 /var/www/html/
+RUN  chmod -R 777 /var/www/html/
