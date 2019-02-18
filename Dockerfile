@@ -3,7 +3,6 @@ FROM daocloud.io/library/php:5.6-apache
 RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
         libmcrypt-dev \
-        libpng12-dev \
         libjpeg-dev \
         libpng-dev \
 && docker-php-ext-configure gd \
